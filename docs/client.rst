@@ -55,7 +55,7 @@ Logged in Clients can like levels, post comments, send messages and friend reque
         await level.like()  # hehe
 
     nekit = await client.fetch_user(5509312)
-    # <AbstractUser name='NeKitDS' id=17876467 account_id=5509312>
+    # <AbstractUser name='nekitdev' id=17876467 account_id=5509312>
 
     # please do not spam me with those uwu ~ nekit
     await nekit.send_friend_request('Hey there from gd.py')

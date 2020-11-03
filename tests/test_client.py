@@ -30,7 +30,7 @@ async def test_fetch_user():
 
 
 async def test_search_user():
-    await client.search_user("NeKitDS")  # 1
+    await client.search_user("nekitdev")  # 1
     await client.find_user("RobTop")  # 2
 
 

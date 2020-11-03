@@ -54,7 +54,7 @@ master_doc = "index"
 
 # General information about the project
 project = "gd.py"
-copyright = "2019-2020, NeKitDS"
+copyright = "2019-2020, nekitdev"
 
 version = ""
 with open("../gd/__init__.py") as f:  # version should be set at this point
@@ -69,7 +69,7 @@ pdf_documents = [
         "index",
         "Geometry Dash Python Documentation",
         "gd.py documentation, built with PDF format.",
-        "NeKitDS",
+        "nekitdev",
     )
 ]
 

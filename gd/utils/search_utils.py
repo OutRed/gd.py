@@ -59,7 +59,7 @@ def get(iterable: Iterable, **attrs: Any) -> Union[Any, List[Any]]:
 
         ...
         friends = await client.get_friends()
-        nekit = gd.utils.get(friends, name='NeKitDS')
+        nekit = gd.utils.get(friends, name='nekitdev')
 
     """
     # check if ALL elements matching requirements should be returned

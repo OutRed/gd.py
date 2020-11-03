@@ -6,7 +6,7 @@ from conftest import client
 # PREPARATIONS
 
 pytestmark = pytest.mark.asyncio
-user = client.run(client.search_user("NeKitDS"))
+user = client.run(client.search_user("nekitdev"))
 
 message = "[gd.py] ({}): Running tests...".format(datetime.utcnow())
 

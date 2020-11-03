@@ -3,10 +3,10 @@ with the servers and the game of Geometry Dash.
 """
 
 __title__ = "gd"
-__author__ = "NeKitDS"
-__copyright__ = "Copyright 2019-2020 NeKitDS"
+__author__ = "nekitdev"
+__copyright__ = "Copyright 2019-2020 nekitdev"
 __license__ = "MIT"
-__version__ = "1.0.0rc0"
+__version__ = "0.11.0"
 
 from gd.abstractentity import AbstractEntity
 from gd.abstractuser import AbstractUser, LevelRecord

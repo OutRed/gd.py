@@ -34,7 +34,7 @@ User
 gd.py also provides interface to users' icons and colors::
 
     nekit = await client.get_user(5509312)
-    # <User account_id=5509312 id=17876467 name='NeKitDS' ...>
+    # <User account_id=5509312 id=17876467 name='nekitdev' ...>
 
 Icon Set and Color
 ------------------

@@ -215,7 +215,7 @@ class Client:
         .. code-block:: python3
 
             client = gd.Client()
-            client.edit(name='NeKitDS', id=17876467, account_id=5509312, password='secret')
+            client.edit(name='nekitdev', id=17876467, account_id=5509312, password='secret')
         """
         for attr, value in attrs.items():
             self._upd(attr, value)
